@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package network
 
 import (
@@ -8,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/go-plugins-helpers/sdk"
+	"github.com/sniperkit/snk.fork.go-plugins-helpers/sdk"
 )
 
 type TestDriver struct {

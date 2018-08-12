@@ -1,9 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // +build linux freebsd
 // +build nosystemd
 
 package sdk
 
-import "net"
+import (
+	"net"
+)
 
 func setupSocketActivation() (net.Listener, error) {
 	return nil, nil

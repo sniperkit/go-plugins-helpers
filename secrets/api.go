@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package secrets
 
 import (
 	"net/http"
 
-	"github.com/docker/go-plugins-helpers/sdk"
+	"github.com/sniperkit/snk.fork.go-plugins-helpers/sdk"
 )
 
 const (

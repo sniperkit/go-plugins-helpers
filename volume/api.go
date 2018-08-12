@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package volume
 
 import (
 	"log"
 	"net/http"
 
-	"github.com/docker/go-plugins-helpers/sdk"
+	"github.com/sniperkit/snk.fork.go-plugins-helpers/sdk"
 )
 
 const (

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package graphdriver
 
 // See https://github.com/docker/docker/blob/master/experimental/plugins_graphdriver.md
@@ -8,7 +13,8 @@ import (
 
 	graphDriver "github.com/docker/docker/daemon/graphdriver"
 	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/go-plugins-helpers/sdk"
+
+	"github.com/sniperkit/snk.fork.go-plugins-helpers/sdk"
 )
 
 const (

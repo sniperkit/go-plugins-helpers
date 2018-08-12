@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package authorization
 
 import (
@@ -15,8 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/go-plugins-helpers/sdk"
 	"github.com/stretchr/testify/require"
+
+	"github.com/sniperkit/snk.fork.go-plugins-helpers/sdk"
 )
 
 type TestPlugin struct {

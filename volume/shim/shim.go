@@ -1,8 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package shim
 
 import (
 	"github.com/docker/docker/volume"
-	volumeplugin "github.com/docker/go-plugins-helpers/volume"
+
+	volumeplugin "github.com/sniperkit/snk.fork.go-plugins-helpers/volume"
 )
 
 type shimDriver struct {

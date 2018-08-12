@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package sdk
 
 // WindowsPipeConfig is a helper structure for configuring named pipe parameters on Windows.

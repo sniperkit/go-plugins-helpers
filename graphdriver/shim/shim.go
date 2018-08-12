@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package shim
 
 import (
@@ -8,7 +13,8 @@ import (
 	graphDriver "github.com/docker/docker/daemon/graphdriver"
 	"github.com/docker/docker/pkg/archive"
 	"github.com/docker/docker/pkg/idtools"
-	graphPlugin "github.com/docker/go-plugins-helpers/graphdriver"
+
+	graphPlugin "github.com/sniperkit/snk.fork.go-plugins-helpers/graphdriver"
 )
 
 type shimDriver struct {
